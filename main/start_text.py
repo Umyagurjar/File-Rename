@@ -7,7 +7,7 @@ from config import ADMIN
 async def start_cmd(bot, msg):
     txt="This is personal use bot 🙏. Do you want your own bot? 👇 Click the source code to deploy"
     btn = InlineKeyboardMarkup([[
-        InlineKeyboardButton("🤖 SOURCE CODE", url="https://github.com/Umyagurjar/File-Rename-Bot")
+        InlineKeyboardButton("🤖 SOURCE CODE", url="https://github.com/Umyagurjar/File-Rename")
         ],[
         InlineKeyboardButton("🖥️ How To Deploy", url="https://youtube.com/@jai13907?si=rAAFfVzddR1TlU2Z")
     ]])
@@ -48,7 +48,7 @@ async def help(bot, msg):
 async def about(bot, msg):
     me=await bot.get_me()
     Master=f"<a href=https://t.me/umeshgurjar1390>umeshgurjar1390</a>"
-    Source="<a href=https://github.com/Umyagurjar/File-Rename-Bot>Click Here</a>"
+    Source="<a href=https://github.com/Umyagurjar/File-Rename>Click Here</a>"
     txt=f"<b>Bot Name: {me.mention}\nDeveloper: <a href=https://github.com/Umyagurjar>Umyagurjar</a>\nBot Updates: <a href=https://t.me/ug_bot_updates>Mᴋɴ Bᴏᴛᴢ™</a>\nMy Master's: {Master}\nSource Code: {Source}</b>"                 
     button= [[        
         InlineKeyboardButton("🚫 Close", callback_data="del"),
