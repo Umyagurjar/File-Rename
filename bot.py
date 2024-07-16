@@ -1,4 +1,4 @@
-from pyrofork import Client
+from pyrogram import Client
 from config import *
 import os
 
